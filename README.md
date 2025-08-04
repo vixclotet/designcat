@@ -125,4 +125,5 @@ This project is open-source and distributed under the [MIT License](LICENSE). Se
   <p>If you like this project, consider giving it a ⭐️ on GitHub and sharing it with others!</p>
   <p>Built by <a href="https://github.com/vixclotet">@vixclotet</a></p>
 </div>
+
 > _**Happy coding!**_
