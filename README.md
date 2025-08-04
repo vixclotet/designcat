@@ -119,57 +119,12 @@ These snippets work great for:
 
 ## Customization
 
-### Manual Pattern Customization
-
-You can easily customize any background pattern by modifying the pattern object structure. Each pattern follows this format:
-
-```typescript
-{
-  id: "unique-pattern-id",
-  name: "Pattern Display Name",
-  badge: "New",
-  style: {
-    background: "#ffffff",
-    backgroundImage: `
-      // Your CSS background patterns here
-      linear-gradient(to right, #f0f0f0 1px, transparent 1px),
-      radial-gradient(circle 800px at 100% 200px, #d5c5ff, transparent)
-    `,
-    backgroundSize: "96px 64px, 100% 100%",
-  },
-  code: `<div className="min-h-screen w-full bg-white relative">
-  {/* Pattern Name Background */}
-  <div
-    className="absolute inset-0 z-0"
-    style={{
-      backgroundImage: \`
-        // Your background image styles
-      \`,
-      backgroundSize: "96px 64px, 100% 100%",
-    }}
-  />
-  {/* Your Content/Components */}
-</div>`,
-}
-```
-
 ### Customization Tips
 
 **Colors**: Change hex values in `backgroundImage` gradients
 **Sizing**: Modify `backgroundSize` values for different scales
 **Positioning**: Adjust gradient positions and directions
 **Effects**: Add multiple background layers for complex patterns
-
-### Example Customization
-
-```typescript
-// Original pattern
-backgroundImage: `linear-gradient(to right, #f0f0f0 1px, transparent 1px)`;
-
-// Customized version
-backgroundImage: `linear-gradient(to right, #3b82f6 1px, transparent 1px)`; // Blue lines
-backgroundSize: "48px 32px"; // Smaller grid
-```
 
 ## Usage
 
@@ -188,7 +143,7 @@ Each pattern includes:
 
 ## Contributing
 
-We welcome contributions to expand the pattern collection. To add new patterns:
+We welcome contributions to expand the pattern collection.
 
 ### Adding New Patterns
 
@@ -199,39 +154,9 @@ We welcome contributions to expand the pattern collection. To add new patterns:
 git checkout -b feature/new-pattern-name
 ```
 
-3. Navigate to `src/app/utils/patterns.ts`
-4. Add your pattern following the established format:
-
-```typescript
-{
-  id: "unique-pattern-id",
-  name: "Pattern Display Name",
-  badge: "New", // Optional: "New", "Popular"
-  style: {
-    background: "#ffffff",
-    backgroundImage: `
-      // Your CSS background patterns here
-      linear-gradient(to right, #f0f0f0 1px, transparent 1px),
-      radial-gradient(circle 800px at 100% 200px, #d5c5ff, transparent)
-    `,
-    backgroundSize: "96px 64px, 100% 100%",
-  },
-  code: `<div className="min-h-screen w-full bg-white relative">
-  {/* Pattern Name Background */}
-  <div
-    className="absolute inset-0 z-0"
-    style={{
-      backgroundImage: \`
-        // Your background image styles
-      \`,
-      backgroundSize: "96px 64px, 100% 100%",
-    }}
-  />
-  {/* Your Content/Components */}
-</div>`,
-}
-```
-
+3. Navigate to `app`
+4. Add your pattern as a new addition to the website
+5. 
 ### Contribution Guidelines
 
 - **Consistency**: Follow the existing pattern structure exactly
@@ -249,6 +174,7 @@ Consider these categories when adding patterns:
 - **Geometric** - Grids, dots, lines, shapes
 - **Decorative** - Subtle background textures
 - **Effects** - Clean and simple designs
+- **Animations** - Animated CSS designs
 
 ### Testing Your Patterns
 
@@ -273,30 +199,6 @@ git push origin feature/new-pattern-name
 ```
 
 ## Development
-
-### Project Structure
-
-```
-pattern-craft/
-├── src/
-│   └── app/
-│       ├── components/
-│       │   ├── footer.tsx
-│       │   ├── hero.tsx
-│       │   ├── navbar.tsx
-│       │   ├── pattern-showcase.tsx
-│       │   └── theme-provider.tsx
-│       ├── types/
-│       │   └── pattern.ts
-│       ├── utils/
-│       │   ├── patterns.ts        # Pattern definitions (contribute here)
-│       ├── globals.css
-│       ├── layout.tsx
-│       └── page.tsx
-├── components/
-│   └── ui/                        # shadcn/ui components
-```
-
 ### Code Standards
 
 - Use TypeScript for type safety
