@@ -1,54 +1,32 @@
-<!-- # Pattern Craft -->
-
-> _**For developers, by a developer. Design that slaps⚡**_
+> _**Making your design work extremely easy**_
 
 <div align="center">
-  <img src="./public/images/readme-banner.png" alt="Pattern Craft Banner" />
   <br><br>
   <p align="left">
-    <strong>Effortlessly enhance your websites and apps with 100+ modern CSS background patterns and gradient snippets.</strong>
-    Instantly copy and paste beautifully crafted, production-ready designs built with modern CSS and Tailwind CSS for seamless integration.<br>
+    <strong>Design your websites and nextjs apps with 100+ modern tailwind css designs </strong><br>
     </br>
-    <em>Ideal for developers and designers working with React, Next.js, Vue, Angular, or any modern frontend framework. Made for devs who appreciate great design.</em>
+    <em>For founders, devs, and graphic designners who work with NextJS and React</em>
     </br>
   </p>
   <br>
   <p align="center">
-    <img src="https://img.shields.io/github/stars/megh-bari/pattern-craft?style=social" alt="GitHub stars" />
-<img src="https://img.shields.io/github/forks/megh-bari/pattern-craft?style=social" alt="GitHub forks" />
-<img src="https://img.shields.io/github/license/megh-bari/pattern-craft?style=social" alt="License" />
-<a href="https://vercel.com?utm_source=patterncraft&utm_campaign=oss">
-    <img src="https://img.shields.io/badge/Sponsored%20by-Vercel-000000?style=social&logo=vercel&logoColor=white" alt="Sponsored by Vercel" />
-</a>
+    <img src="https://img.shields.io/github/stars/vixclotet/designcat?style=social" alt="GitHub stars" />
+<img src="https://img.shields.io/github/forks/vixclotet/designcat?style=social" alt="GitHub forks" />
+<img src="https://img.shields.io/github/license/vixclotet/designcat?style=social" alt="License" />
     
   </p>
 </div>
 
 ---
 
->**This project is proudly sponsored by [Vercel](https://vercel.com?utm_source=patterncraft&utm_campaign=oss). Thank you for supporting open source!**
-
   <p align="center">
-<a href="https://vercel.com?utm_source=patterncraft&utm_campaign=oss">
+<a href="https://vercel.com?utm_source=designcat&utm_campaign=oss">
   <img src="https://www.datocms-assets.com/31049/1618983297-powered-by-vercel.svg" alt="Powered by Vercel" height="32">
 </a>
 </p>
 
-## Visit: **[Pattern Craft](https://patterncraft.megh.me)**
+## Visit: **[DesignCat](https://designcat.vercel.app)**
 
-![UI Image](./public/images/readme-img-one.png)
-![UI Image](./public/images/readme-img-two.png)
-![UI Image](./public/images/readme-img-four.png)
-![UI Image](./public/images/readme-img-three.png)
-
-> _**Note: This project does not provide plain HTML or vanilla CSS snippets. All code is optimized for JSX (React/Next.js) and Tailwind CSS.**_  
-> [Learn more in this announcement.](https://github.com/megh-bari/pattern-craft/discussions/24)
-
-## Pattern Craft in the Wild!!!
-
-Curious where Pattern Craft is getting featured, shared, talk about or appreciated?  
-Check out this growing list of shoutouts, showcases, and love from the community:  
-🧩 [**Where Pattern Craft is Making Noise??**](https://patterncraft.notion.site/Where-Pattern-Craft-is-Making-Noise-23bf940b4137803ea79bf3606acdb317?pvs=74)
 
 ## Features
 
@@ -69,14 +47,9 @@ Check out this growing list of shoutouts, showcases, and love from the community
 - **Tailwind CSS** - Utility-first CSS framework
 - **Vercel** - Deployment and hosting
 
-
-## Sponsored by <a href="https://vercel.com?utm_source=patterncraft&utm_campaign=oss">Vercel⚡</a>
-
-**This project is proudly powered by <b>Vercel</b> — the platform behind PatternCraft’s blazing-fast deployment and seamless scalability.**<br>
-
-<i>Big thanks to Vercel for supporting open source and keeping this project running smoothly!</i>
+**This project is proudly powered by <b>Vercel</b> — the platform behind DesignCat's blazing-fast deployment and seamless scalability.**<br>
   <br><br>
-  <a href="https://vercel.com?utm_source=patterncraft&utm_campaign=oss">
+  <a href="https://vercel.com?utm_source=designcat&utm_campaign=oss">
     <img src="https://www.datocms-assets.com/31049/1618983297-powered-by-vercel.svg" alt="Powered by Vercel" height="40">
   </a>
 </p>
@@ -94,8 +67,8 @@ Check out this growing list of shoutouts, showcases, and love from the community
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/megh-bari/pattern-craft.git
-cd pattern-craft
+git clone https://github.com/vixclotet/designcat.git
+cd designcat
 ```
 
 2. Install dependencies:
@@ -129,7 +102,7 @@ npm start
 
 ## How to Use This
 
-1. Visit the live site: **[https://patterncraft.fun](https://pattern-craft.vercel.app/)**
+1. Visit the live site: **[https://designcat.vercel.app](https://designcat.vercel.app/)**
 2. Browse through the collection of background patterns and gradients.
 3. Click on any pattern to open its preview modal.
 4. Copy the CSS/Tailwind-compatible code snippet.
@@ -142,9 +115,7 @@ These snippets work great for:
 - Cards and sections
 - Background art
 
-## Demo
-
-[Watch the demo video](https://github.com/user-attachments/assets/c283ecbc-8732-412b-adab-5c17d1a390cc)
+## Demo Coming Soon
 
 ## Customization
 
@@ -216,8 +187,6 @@ Each pattern includes:
 - Cross-browser compatibility
 
 ## Contributing
-
->**This project is sponsored by Vercel, which helps us maintain a stable development environment.**
 
 We welcome contributions to expand the pattern collection. To add new patterns:
 
@@ -355,18 +324,11 @@ For questions, issues, or suggestions:
 
 ## Built By
 
-- Twitter: [@meghtrix](https://x.com/meghtrix)
-- GitHub: [@megh-bari](https://github.com/megh-bari)
+- Twitter: [@vixclotet](https://x.com/vixclotet)
+- GitHub: [@vixclotet](https://github.com/vixclotet)
 
 If you like this project, consider giving it a ⭐️ on GitHub and sharing it with others!
 
 ---
 
 > _**Happy coding!**_
-
-## How It Works
-
-1. Create and modify your project using [v0.dev](https://v0.dev)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
