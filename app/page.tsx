@@ -115,12 +115,12 @@ export default function DesignCatLandingPage() {
               </Link>
               <div className={cn("flex items-center gap-2", isBgDark ? "text-white" : "text-gray-800")}>
                 <Button variant="ghost" size="icon" asChild>
-                  <Link href="https://github.com" target="_blank" aria-label="GitHub">
+                  <Link href="https://github.com/vixclotet/designcat" target="_blank" aria-label="GitHub">
                     <Github className="h-5 w-5" />
                   </Link>
                 </Button>
                 <Button variant="ghost" size="icon" asChild>
-                  <Link href="https://twitter.com" target="_blank" aria-label="Twitter">
+                  <Link href="https://x.com/vixclotet" target="_blank" aria-label="Twitter">
                     <Twitter className="h-5 w-5" />
                   </Link>
                 </Button>
@@ -145,7 +145,7 @@ export default function DesignCatLandingPage() {
                 An open-source library of UI/UX patterns and animations.
               </p>
               <Button asChild size="lg">
-                <Link href="https://github.com" target="_blank" rel="noopener noreferrer">
+                <Link href="https://github.com/vixclotet/designcat" target="_blank" rel="noopener noreferrer">
                   <Github className="mr-2 h-5 w-5" />
                   Contribute Here!
                 </Link>
@@ -275,7 +275,7 @@ export default function DesignCatLandingPage() {
             <p className={cn("text-sm", isBgDark ? "text-gray-300" : "text-gray-500")}>
               Built by the community. Contribute on{" "}
               <Link
-                href="https://github.com"
+                href="https://github.com/vixclotet/designcat"
                 className={cn("underline", isBgDark ? "hover:text-white" : "hover:text-gray-800")}
               >
                 GitHub
