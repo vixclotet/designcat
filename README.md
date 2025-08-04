@@ -62,21 +62,21 @@ This project was brought to life using **[v0](https://v0.dev)**, Vercel's genera
 ### Installation
 
 1.  **Clone the repository:**
-    \`\`\`bash
+    ```bash
     git clone https://github.com/vixclotet/designcat.git
     cd designcat
-    \`\`\`
+    ```
 
 2.  **Install dependencies:**
-    \`\`\`bash
+    ```bash
     npm install
     # or yarn install, pnpm install, bun install
-    \`\`\`
+    ```
 
 3.  **Run the development server:**
-    \`\`\`bash
+    ```bash
     npm run dev
-    \`\`\`
+    ```
 
 4.  Open [http://localhost:3000](http://localhost:3000) in your browser to see the result.
 
