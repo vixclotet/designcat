@@ -10,9 +10,8 @@
   </p>
   <br>
   <p align="center">
-    <img src="https://img.shields.io/github/stars/vixclotet/designcat?style=social" alt="GitHub stars" />
+<img src="https://img.shields.io/github/stars/vixclotet/designcat?style=social" alt="GitHub stars" />
 <img src="https://img.shields.io/github/forks/vixclotet/designcat?style=social" alt="GitHub forks" />
-<img src="https://img.shields.io/github/license/vixclotet/designcat?style=social" alt="License" />
     
   </p>
 </div>
