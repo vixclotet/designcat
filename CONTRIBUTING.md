@@ -39,7 +39,7 @@ We are always looking for new, high-quality UI patterns, gradients, and animatio
 1.  **Fork the repository** and create a new branch.
 2.  **Add your CSS**: For new patterns or animations, add the corresponding CSS to the `app/globals.css` file. Please use a unique and descriptive class name, prefixed with `dc-` (for DesignCat) to avoid conflicts. For example: `.dc-your-pattern-name`.
 3.  **Add the resource data**: Open `lib/data.ts` and add a new object to the `resources` array. Follow the existing structure:
-    \`\`\`typescript
+    ```typescript
     {
       id: 101, // Choose a unique ID
       name: 'Your Awesome Pattern',
@@ -52,7 +52,7 @@ We are always looking for new, high-quality UI patterns, gradients, and animatio
       },
       isFavorite: false,
     }
-    \`\`\`
+    ```
 4.  **Submit a Pull Request** with your changes.
 
 ### Your First Code Contribution
